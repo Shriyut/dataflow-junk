@@ -1,0 +1,20 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - dataflow
+  - flex-template
+  - build
+  - gs://demo_bucket123456/stream/streaming-beam.json
+  - --image=gcr.io/testproject123456789-313307/streaming-beam:latest
+  - --sdk-language=PYTHON
+  - --metadata-file=metadata.json
+  id: 'dataflow-template'
+- name: 'gcr.io/testproject123456789-313307/streaming-beam:latest'
+  entrypoint: python
+  args:
+  - /dataflow/template/streaming_beam.py
+  - --runner=DataflowRunner
+  - --project=$PROJECT_ID
+  - --job_name=teststreamdataflowjob
+  - --sdk_container_image=gcr.io/testproject123456789-313307/streaming-beam:latest
+  waitFor: ['dataflow-template']
