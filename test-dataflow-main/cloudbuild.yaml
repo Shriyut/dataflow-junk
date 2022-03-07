@@ -1,0 +1,15 @@
+steps:
+- name: 'gcr.io/testproject123456789-313307/dataflow-python3'
+  entrypoint: '/bin/bash'
+  args: [ '-c',
+          'source /opt/venv/bin/activate' ]
+- name: 'gcr.io/testproject123456789-313307/dataflow-python3'
+  entrypoint: 'python'
+  args: [ '-m',
+          'apache_beam.examples.wordcount',
+          '--region=us-central1',
+          '--input=gs://dataflow-samples/shakespeare/kinglear.txt',
+          '--output=gs://cloudbuild-dataflow-testproject123456789-313307/results/outputs',
+          '--runner=DataflowRunner',
+          '--temp_location=gs://cloudbuild-dataflow-testproject123456789-313307/tmp',
+          '--project=testproject123456789-313307' ]
