@@ -1,0 +1,44 @@
+[
+    {
+      "description": "The unique ID for every job",
+      "mode": "NULLABLE",
+      "name": "Run_ID",
+      "type": "STRING"
+    },
+    {
+      "description": "Unique ID of error event",
+      "mode": "NULLABLE",
+      "name": "Error_ID",
+      "type": "STRING"
+    },
+    {
+      "description": "Timestamp at which the error occured",
+      "mode": "NULLABLE",
+      "name": "Error_Event_Timestamp",
+      "type": "DATE"
+    },
+    {
+      "description": "GCP resource name which failed to execute",
+      "mode": "NULLABLE",
+      "name": "GCP_Component",
+      "type": "STRING"
+    },
+    {
+      "description": "Type of error",
+      "mode": "NULLABLE",
+      "name": "Error_Type",
+      "type": "STRING"
+    },
+    {
+        "description": "Description of error",
+        "mode": "NULLABLE",
+        "name": "Error_Description",
+        "type": "STRING"
+    },
+    {
+        "description": "Error message",
+        "mode": "NULLABLE",
+        "name": "Error_Message",
+        "type": "STRING"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+      "description": "The unique ID for every job",
+      "mode": "NULLABLE",
+      "name": "Run_ID",
+      "type": "STRING"
+    },
+    {
+      "description": "Unique ID of error event",
+      "mode": "NULLABLE",
+      "name": "Error_Event_ID",
+      "type": "STRING"
+    },
+    {
+      "description": "Timestamp at which the error occured",
+      "mode": "NULLABLE",
+      "name": "Error_Event_Timestamp",
+      "type": "DATE"
+    },
+    {
+      "description": "Unique ID of source system",
+      "mode": "NULLABLE",
+      "name": "Source_System_ID",
+      "type": "STRING"
+    },
+    {
+      "description": "Number of attributes failed in DQ validation",
+      "mode": "NULLABLE",
+      "name": "Invalid_Attribute_CNT",
+      "type": "INTEGER"
+    },
+    {
+        "description": "All attributes separated by '||' failed against DQ rules ",
+        "mode": "NULLABLE",
+        "name": "Error_Description",
+        "type": "STRING"
+    },
+    {
+        "description": "Indicates status of a record, (Open or Closed)",
+        "mode": "NULLABLE",
+        "name": "Status",
+        "type": "STRING"
+    },
+    {
+        "description": "Name of source system",
+        "mode": "NULLABLE",
+        "name": "Src_System_Name",
+        "type": "STRING"
+    },
+    {
+        "description": "Timestamp at which the record was inserted",
+        "mode": "NULLABLE",
+        "name": "Created_Timestamp",
+        "type": "DATE"
+    },
+    {
+        "description": "Timestamp at which record was updated",
+        "mode": "NULLABLE",
+        "name": "Updated_Timestamp",
+        "type": "DATE"
+    }
+]

@@ -1,0 +1,48 @@
+steps:
+- id: 'bigquery'
+  name: 'hashicorp/terraform:1.0.0'
+  entrypoint: 'sh'
+  args:
+  - '-c'
+  - |
+      cd athena/bigquery/
+      terraform init
+      terraform plan
+      terraform apply -auto-approve
+      cd ..
+- id: 'pubsub'
+  name: 'hashicorp/terraform:1.0.0'
+  entrypoint: 'sh'
+  args:
+  - '-c'
+  - |
+      cd athena/pubsub/
+      terraform init
+      terraform plan
+      terraform apply -auto-approve
+      cd ..
+  waitFor: ['bigquery']
+- id: 'storage'
+  name: 'hashicorp/terraform:1.0.0'
+  entrypoint: 'sh'
+  args:
+  - '-c'
+  - |
+      cd athena/storage/
+      terraform init
+      terraform plan
+      terraform apply -auto-approve
+      cd ..
+  waitFor: ['pubsub']
+- id: 'function'
+  name: 'hashicorp/terraform:1.0.0'
+  entrypoint: 'sh'
+  args:
+  - '-c'
+  - |
+      cd athena/cloudfunction/
+      terraform init
+      terraform plan
+      terraform apply -auto-approve
+      cd ..
+  waitFor: ['storage']

@@ -1,0 +1,86 @@
+[
+    {
+      "description": "The unique ID for every job",
+      "mode": "NULLABLE",
+      "name": "Run_ID",
+      "type": "STRING"
+    },
+    {
+      "description": "Timestamp at which the job starts",
+      "mode": "NULLABLE",
+      "name": "Job_Start_Time",
+      "type": "DATE"
+    },
+    {
+      "description": "Timestamp at which job ends",
+      "mode": "NULLABLE",
+      "name": "Job_End_Time",
+      "type": "DATE"
+    },
+    {
+      "description": "Type of Job RealTime/Batch",
+      "mode": "NULLABLE",
+      "name": "Job_Type",
+      "type": "STRING"
+    },
+    {
+      "description": "Name of the Job",
+      "mode": "NULLABLE",
+      "name": "Job_Name",
+      "type": "STRING"
+    },
+    {
+        "description": "Status of Job",
+        "mode": "NULLABLE",
+        "name": "Job_Status",
+        "type": "STRING"
+    },
+    {
+        "description": "Name of the GCP resource which is being executed",
+        "mode": "NULLABLE",
+        "name": "GCP_Component",
+        "type": "STRING"
+    },
+    {
+        "description": "Name of source system",
+        "mode": "NULLABLE",
+        "name": "Src_System_Name",
+        "type": "STRING"
+    },
+    {
+        "description": "Name of file received from source system",
+        "mode": "NULLABLE",
+        "name": "Src_File_Name",
+        "type": "STRING"
+    },
+    {
+        "description": "Name of target table",
+        "mode": "NULLABLE",
+        "name": "Tgt_Name",
+        "type": "STRING"
+    },
+    {
+        "description": "Total number of records from source system",
+        "mode": "NULLABLE",
+        "name": "Total_Records",
+        "type": "INTEGER"
+    },
+    {
+        "description": "Count of valid records",
+        "mode": "NULLABLE",
+        "name": "Valid_Records",
+        "type": "INTEGER"
+    },
+    {
+        "description": "Count of Invalid records",
+        "mode": "NULLABLE",
+        "name": "Invalid_Records",
+        "type": "INTEGER"
+    },
+    {
+        "description": "GCS path where all records in this job are archived",
+        "mode": "NULLABLE",
+        "name": "Archive_Path",
+        "type": "STRING"
+    }
+]
