@@ -1,0 +1,11 @@
+#gcloud functions deploy test_function --region=us-central1 --trigger-topic=xyz --runtime=python37 --source=gs://bqtest987654321/python.zip
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - functions
+  - deploy
+  - new_function
+  - --region=us-east1
+  - --source=gs://demo_bucket123456/python.zip
+  - --trigger-topic=xyz
+  - --runtime=python37
