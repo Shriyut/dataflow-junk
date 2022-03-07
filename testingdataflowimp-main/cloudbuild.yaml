@@ -1,0 +1,24 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - builds
+  - submit
+  - --tag=gcr.io/testproject123456789-313307/xyzbeam:latest
+  - .
+  id: 'build-image'
+- name: 'gcr.io/testproject123456789-313307/xyzbeam:latest'
+  entrypoint: '/bin/bash'
+  args: [ '-c',
+          'source /opt/venv/bin/activate' ]
+  waitFor: ['build-image']
+  id: 'activate'
+- name: 'gcr.io/testproject123456789-313307/xyzbeam:latest'
+  entrypoint: 'python'
+  args: [ 'main.py',
+          '--runner=DataflowRunner',
+          '--job_name=checking-dataflow-job',
+          '--region=us-central1',
+          '--temp_location=gs://demo_bucket123456/tmp',
+          ' --requirements_file=requirements.txt',
+          '--project=testproject123456789-313307' ]
+  waitFor: ['activate']
