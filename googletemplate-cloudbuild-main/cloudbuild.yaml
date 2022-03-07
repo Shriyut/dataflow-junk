@@ -1,0 +1,11 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: [ 'dataflow',
+          'jobs',
+          'run',
+          'google-template-job',
+          '--gcs-location=gs://dataflow-templates/latest/PubSub_Subscription_to_BigQuery',
+          '--parameters=inputSubscription="projects/$PROJECT_ID/subscriptions/messages"',
+          '--parameters=outputTableSpec="testproject123456789-313307:beam_samples.streaming_beam"',
+          '--staging-location=gs://cloudbuild-dataflow-testproject123456789-313307/tmp',
+          '--region=us-central1' ]
