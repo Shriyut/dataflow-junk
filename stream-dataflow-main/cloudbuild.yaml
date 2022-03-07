@@ -1,0 +1,31 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - builds
+  - submit
+  - --tag=gcr.io/testproject123456789-313307/samples/dataflow/streaming-beam:latest
+  - .
+  id: 'build-image'
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - dataflow
+  - flex-template
+  - build
+  - gs://demo_bucket123456/streaming-beam.json
+  - --image=gcr.io/testproject123456789-313307/samples/dataflow/streaming-beam:latest
+  - --sdk-language=PYTHON
+  - --metadata-file=metadata.json
+  waitFor: ['build-image']
+  id: 'dataflow-template'
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - dataflow
+  - flex-template
+  - run
+  - streaming-beam-job2
+  - --template-file-gcs-location=gs://demo_bucket123456/streaming-beam.json
+  - --parameters=input_subscription="projects/testproject123456789-313307/subscriptions/messages"
+  - --parameters=output_table="testproject123456789-313307:beam_samples.streaming_beam"
+  - --staging-location=gs://cloudbuild-dataflow-testproject123456789-313307/tmp'
+  - --region=us-central1
+  waitFor: ['dataflow-template']
