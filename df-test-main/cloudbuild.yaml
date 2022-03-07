@@ -1,0 +1,14 @@
+steps:
+- name: 'gcr.io/testproject123456789-313307/dataflow-python3'
+  entrypoint: '/bin/bash'
+  args: [ '-c',
+          'source /opt/venv/bin/activate' ]
+- name: 'gcr.io/testproject123456789-313307/dataflow-python3'
+  entrypoint: 'python'
+  args: [ 'attendance.py',
+          '--region=us-central1',
+          '--input=gs://demo_bucket123456/dept_data.txt',
+          '--output=gs://demo_bucket123456/output',
+          '--runner=DataflowRunner',
+          '--temp_location=gs://demo_bucket123456/tmp',
+          '--project=testproject123456789-313307' ]
