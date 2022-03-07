@@ -1,0 +1,2784 @@
+{
+"riq_data" :
+[
+  {
+    "softDeleted": false,
+    "hardDeleted": false,
+    "deleted": false,
+    "deletedTime": null,
+    "crosswalks": [
+      {
+        "value": "11299-387",
+        "attributes": [
+          "Alias/4MQDuJjT",
+          "ManagedIdentifier/4MQDtUaN",
+          "Alias/4MQDuw5n",
+          "SystemIdentifier/4MQDvD8p",
+          "SystemIdentifier/4MQDvPvb",
+          "SystemIdentifier/4MQDvpV9",
+          "SystemIdentifier/4MQDw2Hv",
+          "Alias/4MQDuWWF",
+          "SystemIdentifier/4MQDvciN",
+          "Email/4MQDtu9v",
+          "ManagedIdentifier/4MQDt50p",
+          "SystemIdentifier/4MQDwF4h",
+          "Alias/4MQDujJ1",
+          "Email/4MQDu6wh",
+          "FamilyName/4MQDssE3",
+          "GivenName/4MQDsjhX",
+          "Specialty/0297IoS",
+          "Alias/4MQDuJjT/AliasNameTypeCode/4MQDuNzj",
+          "Alias/4MQDuJjT/AliasFullName/4MQDuSFz",
+          "ManagedIdentifier/4MQDtUaN/ManagedIdentifierValue/4MQDtd6t",
+          "ManagedIdentifier/4MQDtUaN/ManagedIdentifierType/4MQDtYqd",
+          "ManagedIdentifier/4MQDtUaN/IdentifierStatus/4MQDtptf",
+          "Alias/4MQDuw5n/AliasFullName/4MQDv4cJ",
+          "Alias/4MQDuw5n/AliasNameTypeCode/4MQDv0M3",
+          "SystemIdentifier/4MQDvD8p/SystemIdentifierValue/4MQDvLfL",
+          "SystemIdentifier/4MQDvD8p/SystemIdentifierType/4MQDvHP5",
+          "SystemIdentifier/4MQDvPvb/SystemIdentifierValue/4MQDvYS7",
+          "SystemIdentifier/4MQDvPvb/SystemIdentifierType/4MQDvUBr",
+          "SystemIdentifier/4MQDvpV9/SystemIdentifierValue/4MQDvy1f",
+          "SystemIdentifier/4MQDvpV9/SystemIdentifierType/4MQDvtlP",
+          "SystemIdentifier/4MQDw2Hv/SystemIdentifierValue/4MQDwAoR",
+          "SystemIdentifier/4MQDw2Hv/SystemIdentifierType/4MQDw6YB",
+          "Alias/4MQDuWWF/AliasFullName/4MQDuf2l",
+          "Alias/4MQDuWWF/AliasNameTypeCode/4MQDuamV",
+          "SystemIdentifier/4MQDvciN/SystemIdentifierType/4MQDvgyd",
+          "SystemIdentifier/4MQDvciN/SystemIdentifierValue/4MQDvlEt",
+          "Email/4MQDtu9v/EmailType/4MQDtyQB",
+          "ManagedIdentifier/4MQDt50p/ManagedIdentifierValue/4MQDtDXL",
+          "ManagedIdentifier/4MQDt50p/ManagedIdentifierType/4MQDt9H5",
+          "ManagedIdentifier/4MQDt50p/IdentifierStatus/4MQDtQK7",
+          "SystemIdentifier/4MQDwF4h/SystemIdentifierValue/4MQDwNbD",
+          "SystemIdentifier/4MQDwF4h/SystemIdentifierType/4MQDwJKx",
+          "Alias/4MQDujJ1/AliasNameTypeCode/4MQDunZH",
+          "Alias/4MQDujJ1/AliasFullName/4MQDurpX",
+          "Email/4MQDu6wh/EmailType/4MQDuBCx"
+        ],
+        "Uri": "entities/1dFp0Wd/crosswalks/4MQDwRrT",
+        "updateDate": "2021-10-27 12:23:00.945 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 12:23:00.945 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:23:00.945 UTC",
+        "refEntityOrRelationId": ""
+      },
+      {
+        "value": "011",
+        "attributes": [
+          "Specialty/0297IoS",
+          "Specialty/0297IoS/SystemIdentifier/4MQH6AQB",
+          "Specialty/0297IoS/SpecialtyCode/4MQKPIuF",
+          "Specialty/0297IoS/SystemIdentifier/4MQH6AQB/SystemIdentifierValue/4MQH6Iwh",
+          "Specialty/0297IoS/SystemIdentifier/4MQH6AQB/SystemIdentifierType/4MQH6EgR"
+        ],
+        "Uri": "entities/1dFp0Wd/crosswalks/1dFs23z.4MQH6NCx",
+        "updateDate": "2021-10-27 12:48:12.457 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 19:32:20.385 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:48:12.457 UTC",
+        "refEntityOrRelationId": "1dFs23z"
+      },
+      {
+        "value": "HAS_SPECIALTY_HCP11299-387_SPECIALTY011",
+        "attributes": [],
+        "Uri": "entities/1dFp0Wd/crosswalks/0297IoS.rOIzDnE",
+        "updateDate": "2021-10-27 12:57:24.538 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 12:57:24.538 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:57:24.538 UTC",
+        "refEntityOrRelationId": "0297IoS"
+      },
+      {
+        "value": "11299-387",
+        "attributes": [],
+        "Uri": "entities/1dFp0Wd/crosswalks/4MQDwRrT",
+        "updateDate": null,
+        "deleteDate": null,
+        "reltioLoadDate": null,
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": null,
+        "refEntityOrRelationId": "0297IoS"
+      },
+      {
+        "value": "011",
+        "attributes": [],
+        "Uri": "entities/1dFs23z/crosswalks/4MQH6NCx",
+        "updateDate": null,
+        "deleteDate": null,
+        "reltioLoadDate": null,
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": null,
+        "refEntityOrRelationId": "0297IoS"
+      }
+    ],
+    "tags": [],
+    "createdTime": "2021-10-27 12:23:00.945 UTC",
+    "updatedTime": "2021-11-09 14:01:36.548 UTC",
+    "insertedTime": "2021-11-09 14:01:36.548 UTC",
+    "startDate": null,
+    "endDate": null,
+    "Uri": "entities/1dFp0Wd",
+    "updatedBy": "Re-cleansing of null in tenant aZ3nRz4xTnBl2g6 background task. (started by sanchari.saha@ascension-external.org)",
+    "Type": "HCP",
+    "createdBy": "vsheladi@ascension-external.org",
+    "eventTime": "2021-11-09 14:01:36.548 UTC",
+    "versionTime": "2000000002",
+    "Id": "1dFp0Wd",
+    "analyticsAttributes": {
+      "DQ": [],
+      "IQ": [],
+      "AttributeValidations": []
+    },
+    "attributes": {
+      "NamePrefixCode": [],
+      "GivenName": [
+        {
+          "value": "CHANNAGATTA",
+          "Id": "4MQDsjhX",
+          "isOv": true
+        }
+      ],
+      "MiddleName": [],
+      "FamilyName": [
+        {
+          "value": "TRIYAMBAKARAJ",
+          "Id": "4MQDssE3",
+          "isOv": true
+        }
+      ],
+      "NameSuffixCode": [],
+      "Credential": [],
+      "FullName": [],
+      "PreferredName": [],
+      "MaidenName": [],
+      "DoB": [],
+      "DoD": [],
+      "DeceasedFlag": [],
+      "AdministrativeGenderCode": [],
+      "RaceCode": [],
+      "EthnicityCode": [],
+      "LanguageSpoken": [],
+      "SSN": [],
+      "DomesticPartnerName": [],
+      "MaritalStatusCode": [],
+      "FieldofLicensureCode": [],
+      "ManagedIdentifier": [
+        {
+          "value": {
+            "ManagedIdentifierType": [
+              {
+                "value": "DEA Number",
+                "Id": "4MQDtYqd",
+                "isOv": true
+              }
+            ],
+            "ManagedIdentifierValue": [
+              {
+                "value": "AT6593099",
+                "Id": "4MQDtd6t",
+                "isOv": true
+              }
+            ],
+            "IssuingAuthority": [],
+            "State": [],
+            "StateProfessionTypeCode": [],
+            "InitialIssueDate": [],
+            "EffectiveDate": [],
+            "RenewalDate": [],
+            "ExpirationDate": [],
+            "IdentifierStatus": [
+              {
+                "value": "COMPLETE",
+                "Id": "4MQDtptf",
+                "isOv": true
+              }
+            ],
+            "CredentialInUseFlag": []
+          },
+          "Id": "4MQDtUaN",
+          "isOv": true
+        },
+        {
+          "value": {
+            "ManagedIdentifierType": [
+              {
+                "value": "NPI Number",
+                "Id": "4MQDt9H5",
+                "isOv": true
+              }
+            ],
+            "ManagedIdentifierValue": [
+              {
+                "value": "1578642856",
+                "Id": "4MQDtDXL",
+                "isOv": true
+              }
+            ],
+            "IssuingAuthority": [],
+            "State": [],
+            "StateProfessionTypeCode": [],
+            "InitialIssueDate": [],
+            "EffectiveDate": [],
+            "RenewalDate": [],
+            "ExpirationDate": [],
+            "IdentifierStatus": [
+              {
+                "value": "COMPLETE",
+                "Id": "4MQDtQK7",
+                "isOv": true
+              }
+            ],
+            "CredentialInUseFlag": []
+          },
+          "Id": "4MQDt50p",
+          "isOv": true
+        }
+      ],
+      "BoardCertification": [],
+      "Education": [],
+      "Email": [
+        {
+          "value": {
+            "EmailType": [
+              {
+                "value": "email",
+                "Id": "4MQDtyQB",
+                "isOv": true
+              }
+            ],
+            "Email": [],
+            "Rank": [],
+            "Active": [],
+            "Domain": [],
+            "DomainType": [],
+            "Username": [],
+            "ValidationStatus": [],
+            "SourceCD": [],
+            "Type": []
+          },
+          "Id": "4MQDtu9v",
+          "isOv": true
+        },
+        {
+          "value": {
+            "EmailType": [
+              {
+                "value": "directaddress",
+                "Id": "4MQDuBCx",
+                "isOv": true
+              }
+            ],
+            "Email": [],
+            "Rank": [],
+            "Active": [],
+            "Domain": [],
+            "DomainType": [],
+            "Username": [],
+            "ValidationStatus": [],
+            "SourceCD": [],
+            "Type": []
+          },
+          "Id": "4MQDu6wh",
+          "isOv": true
+        }
+      ],
+      "Phone": [],
+      "Alias": [
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "providerusername",
+                "Id": "4MQDuNzj",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "ctriyambakaraj",
+                "Id": "4MQDuSFz",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDuJjT",
+          "isOv": true
+        },
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "billedname",
+                "Id": "4MQDv0M3",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "CHANNAGATTA TRIYAMBAKARAJ MD",
+                "Id": "4MQDv4cJ",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDuw5n",
+          "isOv": false
+        },
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "schedulingname",
+                "Id": "4MQDuamV",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "CSMM_TRIYAMBAKARAJ_C",
+                "Id": "4MQDuf2l",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDuWWF",
+          "isOv": false
+        },
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "patientfacingname",
+                "Id": "4MQDunZH",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "CHANNAGATTA TRIYAMBAKARAJ MD",
+                "Id": "4MQDurpX",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDujJ1",
+          "isOv": false
+        }
+      ],
+      "AMGMarketableFlag": [],
+      "TestRecordFlag": [],
+      "StatusCode": [],
+      "SystemIdentifier": [
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "communicatorhomedeptid",
+                "Id": "4MQDwJKx",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "78",
+                "Id": "4MQDwNbD",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDwF4h",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "contextid",
+                "Id": "4MQDvHP5",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "11299",
+                "Id": "4MQDvLfL",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDvD8p",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providergroupid",
+                "Id": "4MQDvtlP",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "2",
+                "Id": "4MQDvy1f",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDvpV9",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providerid",
+                "Id": "4MQDvUBr",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "387",
+                "Id": "4MQDvYS7",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDvPvb",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providermedicalgroupid",
+                "Id": "4MQDw6YB",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "2",
+                "Id": "4MQDwAoR",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDw2Hv",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "userprofileid",
+                "Id": "4MQDvgyd",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "686315",
+                "Id": "4MQDvlEt",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDvciN",
+          "isOv": true
+        }
+      ],
+      "Address": [],
+      "Specialty": [
+        {
+          "value": {
+            "SpecialtyRank": [],
+            "SystemIdentifierType": [],
+            "SystemIdentifierValue": [],
+            "BeginDate": [],
+            "Status": [],
+            "EndDate": [],
+            "SpecialtyCode": [
+              {
+                "value": "011",
+                "Id": "4MQKPIuF",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifier": [
+              {
+                "value": {
+                  "SystemIdentifierType": [
+                    {
+                      "value": "specialtycode",
+                      "Id": "4MQH6EgR",
+                      "isOv": true
+                    }
+                  ],
+                  "SystemIdentifierValue": [
+                    {
+                      "value": "011",
+                      "Id": "4MQH6Iwh",
+                      "isOv": true
+                    }
+                  ]
+                },
+                "Id": "4MQH6AQB",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "0297IoS",
+          "isOv": true
+        }
+      ],
+      "ImageGallery": [],
+      "Prefix": [],
+      "Name": [],
+      "FirstName": [],
+      "LastName": [],
+      "SuffixName": [],
+      "Nickname": [],
+      "Gender": [],
+      "YoB": [],
+      "BirthCity": [],
+      "BirthState": [],
+      "BirthCountry": [],
+      "YoD": [],
+      "TaxID": [],
+      "SSNLast4": [],
+      "ME": [],
+      "NPI": [],
+      "UPIN": [],
+      "KaiserProvider": [],
+      "MajorProfessionalActivity": [],
+      "PresentEmployment": [],
+      "TypeOfPractice": [],
+      "Solo": [],
+      "Group": [],
+      "Administrator": [],
+      "Research": [],
+      "ClinicalTrials": [],
+      "PrivacyPreferences": [],
+      "License": [],
+      "Sanction": [],
+      "GSASanction": [],
+      "Degrees": [],
+      "Certificates": [],
+      "Employment": [],
+      "Speaker": [],
+      "WebsiteURL": [],
+      "Status": [],
+      "ImageLinks": [],
+      "DocumentLinks": [],
+      "VideoLinks": [],
+      "Description": [],
+      "Credentials": [],
+      "FormerFirstName": [],
+      "FormerLastName": [],
+      "FormerMiddleName": [],
+      "FormerSuffixName": [],
+      "MiddleInitial": [],
+      "Title": [],
+      "DeleteEntity": [],
+      "affiliatedwith": [],
+      "PresumedDead": [],
+      "DEABusinessActivity": [],
+      "Taxonomy": [],
+      "Identifiers": [],
+      "StatusUpdateDate": [],
+      "StatusReasonCode": [],
+      "Commenters": [],
+      "Specialities": []
+    },
+    "meta_src_system_name": "RIQ Extract",
+    "meta_process_name": "BQ Batch SQL",
+    "meta_source": "RIQ",
+    "bq_load_timestamp": "2022-01-20 13:15:39.453059 UTC"
+  },
+  {
+    "softDeleted": false,
+    "hardDeleted": false,
+    "deleted": false,
+    "deletedTime": null,
+    "crosswalks": [
+      {
+        "value": "11299-223",
+        "attributes": [
+          "Alias/4MQDJskh",
+          "SystemIdentifier/4MQDKZNH",
+          "SystemIdentifier/4MQDLBjb",
+          "Email/4MQDIqop",
+          "Alias/4MQDJTB9",
+          "SystemIdentifier/4MQDKywp",
+          "SystemIdentifier/4MQDK9nj",
+          "ManagedIdentifier/4MQDIRFH",
+          "SystemIdentifier/4MQDKmA3",
+          "Alias/4MQDJGON",
+          "Alias/4MQDJfxv",
+          "SystemIdentifier/4MQDKMaV",
+          "Email/4MQDJ3bb",
+          "GivenName/4MQDI5vz",
+          "SSN/4MQDIMz1",
+          "FamilyName/4MQDIESV",
+          "Specialty/0297VbE",
+          "Alias/4MQDJskh/AliasFullName/4MQDK1HD",
+          "Alias/4MQDJskh/AliasNameTypeCode/4MQDJx0x",
+          "SystemIdentifier/4MQDKZNH/SystemIdentifierType/4MQDKddX",
+          "SystemIdentifier/4MQDKZNH/SystemIdentifierValue/4MQDKhtn",
+          "SystemIdentifier/4MQDLBjb/SystemIdentifierValue/4MQDLKG7",
+          "SystemIdentifier/4MQDLBjb/SystemIdentifierType/4MQDLFzr",
+          "Email/4MQDIqop/EmailType/4MQDIv55",
+          "Alias/4MQDJTB9/AliasFullName/4MQDJbhf",
+          "Alias/4MQDJTB9/AliasNameTypeCode/4MQDJXRP",
+          "SystemIdentifier/4MQDKywp/SystemIdentifierType/4MQDL3D5",
+          "SystemIdentifier/4MQDKywp/SystemIdentifierValue/4MQDL7TL",
+          "SystemIdentifier/4MQDK9nj/SystemIdentifierValue/4MQDKIKF",
+          "SystemIdentifier/4MQDK9nj/SystemIdentifierType/4MQDKE3z",
+          "ManagedIdentifier/4MQDIRFH/ManagedIdentifierValue/4MQDIZln",
+          "ManagedIdentifier/4MQDIRFH/IdentifierStatus/4MQDImYZ",
+          "ManagedIdentifier/4MQDIRFH/ManagedIdentifierType/4MQDIVVX",
+          "SystemIdentifier/4MQDKmA3/SystemIdentifierType/4MQDKqQJ",
+          "SystemIdentifier/4MQDKmA3/SystemIdentifierValue/4MQDKugZ",
+          "Alias/4MQDJGON/AliasNameTypeCode/4MQDJKed",
+          "Alias/4MQDJGON/AliasFullName/4MQDJOut",
+          "Alias/4MQDJfxv/AliasNameTypeCode/4MQDJkEB",
+          "Alias/4MQDJfxv/AliasFullName/4MQDJoUR",
+          "SystemIdentifier/4MQDKMaV/SystemIdentifierValue/4MQDKV71",
+          "SystemIdentifier/4MQDKMaV/SystemIdentifierType/4MQDKQql",
+          "Email/4MQDJ3bb/EmailType/4MQDJ7rr"
+        ],
+        "Uri": "entities/1dFoFdn/crosswalks/4MQDLOWN",
+        "updateDate": "2021-10-27 12:23:00.945 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 12:23:00.945 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:23:00.945 UTC",
+        "refEntityOrRelationId": ""
+      },
+      {
+        "value": "022",
+        "attributes": [
+          "Specialty/0297VbE",
+          "Specialty/0297VbE/SystemIdentifier/4MQH8uuV",
+          "Specialty/0297VbE/SpecialtyCode/4MQKQKq7",
+          "Specialty/0297VbE/SystemIdentifier/4MQH8uuV/SystemIdentifierType/4MQH8zAl",
+          "Specialty/0297VbE/SystemIdentifier/4MQH8uuV/SystemIdentifierValue/4MQH93R1"
+        ],
+        "Uri": "entities/1dFoFdn/crosswalks/1dFsigZ.4MQH97hH",
+        "updateDate": "2021-10-27 12:48:12.457 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 19:32:20.385 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:48:12.457 UTC",
+        "refEntityOrRelationId": "1dFsigZ"
+      },
+      {
+        "value": "HAS_SPECIALTY_HCP11299-223_SPECIALTY022",
+        "attributes": [],
+        "Uri": "entities/1dFoFdn/crosswalks/0297VbE.rOIzQa0",
+        "updateDate": "2021-10-27 12:57:24.538 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 12:57:24.538 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:57:24.538 UTC",
+        "refEntityOrRelationId": "0297VbE"
+      },
+      {
+        "value": "11299-223",
+        "attributes": [],
+        "Uri": "entities/1dFoFdn/crosswalks/4MQDLOWN",
+        "updateDate": null,
+        "deleteDate": null,
+        "reltioLoadDate": null,
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": null,
+        "refEntityOrRelationId": "0297VbE"
+      },
+      {
+        "value": "022",
+        "attributes": [],
+        "Uri": "entities/1dFsigZ/crosswalks/4MQH97hH",
+        "updateDate": null,
+        "deleteDate": null,
+        "reltioLoadDate": null,
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": null,
+        "refEntityOrRelationId": "0297VbE"
+      }
+    ],
+    "tags": [],
+    "createdTime": "2021-10-27 12:23:00.945 UTC",
+    "updatedTime": "2021-11-09 14:01:36.548 UTC",
+    "insertedTime": "2021-11-09 14:01:36.548 UTC",
+    "startDate": null,
+    "endDate": null,
+    "Uri": "entities/1dFoFdn",
+    "updatedBy": "Re-cleansing of null in tenant aZ3nRz4xTnBl2g6 background task. (started by sanchari.saha@ascension-external.org)",
+    "Type": "HCP",
+    "createdBy": "vsheladi@ascension-external.org",
+    "eventTime": "2021-11-09 14:01:36.548 UTC",
+    "versionTime": "2000000002",
+    "Id": "1dFoFdn",
+    "analyticsAttributes": {
+      "DQ": [],
+      "IQ": [],
+      "AttributeValidations": []
+    },
+    "attributes": {
+      "NamePrefixCode": [],
+      "GivenName": [
+        {
+          "value": "GUILLERMO",
+          "Id": "4MQDI5vz",
+          "isOv": true
+        }
+      ],
+      "MiddleName": [],
+      "FamilyName": [
+        {
+          "value": "MARTINEZ-TORRES",
+          "Id": "4MQDIESV",
+          "isOv": true
+        }
+      ],
+      "NameSuffixCode": [],
+      "Credential": [],
+      "FullName": [],
+      "PreferredName": [],
+      "MaidenName": [],
+      "DoB": [],
+      "DoD": [],
+      "DeceasedFlag": [],
+      "AdministrativeGenderCode": [],
+      "RaceCode": [],
+      "EthnicityCode": [],
+      "LanguageSpoken": [],
+      "SSN": [
+        {
+          "value": "111119389",
+          "Id": "4MQDIMz1",
+          "isOv": true
+        }
+      ],
+      "DomesticPartnerName": [],
+      "MaritalStatusCode": [],
+      "FieldofLicensureCode": [],
+      "ManagedIdentifier": [
+        {
+          "value": {
+            "ManagedIdentifierType": [
+              {
+                "value": "NPI Number",
+                "Id": "4MQDIVVX",
+                "isOv": true
+              }
+            ],
+            "ManagedIdentifierValue": [
+              {
+                "value": "1982710935",
+                "Id": "4MQDIZln",
+                "isOv": true
+              }
+            ],
+            "IssuingAuthority": [],
+            "State": [],
+            "StateProfessionTypeCode": [],
+            "InitialIssueDate": [],
+            "EffectiveDate": [],
+            "RenewalDate": [],
+            "ExpirationDate": [],
+            "IdentifierStatus": [
+              {
+                "value": "COMPLETE",
+                "Id": "4MQDImYZ",
+                "isOv": true
+              }
+            ],
+            "CredentialInUseFlag": []
+          },
+          "Id": "4MQDIRFH",
+          "isOv": true
+        }
+      ],
+      "BoardCertification": [],
+      "Education": [],
+      "Email": [
+        {
+          "value": {
+            "EmailType": [
+              {
+                "value": "email",
+                "Id": "4MQDIv55",
+                "isOv": true
+              }
+            ],
+            "Email": [],
+            "Rank": [],
+            "Active": [],
+            "Domain": [],
+            "DomainType": [],
+            "Username": [],
+            "ValidationStatus": [],
+            "SourceCD": [],
+            "Type": []
+          },
+          "Id": "4MQDIqop",
+          "isOv": true
+        },
+        {
+          "value": {
+            "EmailType": [
+              {
+                "value": "directaddress",
+                "Id": "4MQDJ7rr",
+                "isOv": true
+              }
+            ],
+            "Email": [],
+            "Rank": [],
+            "Active": [],
+            "Domain": [],
+            "DomainType": [],
+            "Username": [],
+            "ValidationStatus": [],
+            "SourceCD": [],
+            "Type": []
+          },
+          "Id": "4MQDJ3bb",
+          "isOv": true
+        }
+      ],
+      "Phone": [],
+      "Alias": [
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "billedname",
+                "Id": "4MQDJx0x",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "GUILLERMO MARTINEZ-TORRES MD",
+                "Id": "4MQDK1HD",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDJskh",
+          "isOv": true
+        },
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "schedulingname",
+                "Id": "4MQDJXRP",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "CSMM_MARTINEZTORRE_G",
+                "Id": "4MQDJbhf",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDJTB9",
+          "isOv": false
+        },
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "providerusername",
+                "Id": "4MQDJKed",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "gmartineztorres",
+                "Id": "4MQDJOut",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDJGON",
+          "isOv": false
+        },
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "patientfacingname",
+                "Id": "4MQDJkEB",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "GUILLERMO MARTINEZ-TORRES MD",
+                "Id": "4MQDJoUR",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDJfxv",
+          "isOv": false
+        }
+      ],
+      "AMGMarketableFlag": [],
+      "TestRecordFlag": [],
+      "StatusCode": [],
+      "SystemIdentifier": [
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "communicatorhomedeptid",
+                "Id": "4MQDLFzr",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "129",
+                "Id": "4MQDLKG7",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDLBjb",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "contextid",
+                "Id": "4MQDKE3z",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "11299",
+                "Id": "4MQDKIKF",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDK9nj",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providergroupid",
+                "Id": "4MQDKqQJ",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "2",
+                "Id": "4MQDKugZ",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDKmA3",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providerid",
+                "Id": "4MQDKQql",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "223",
+                "Id": "4MQDKV71",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDKMaV",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providermedicalgroupid",
+                "Id": "4MQDL3D5",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "2",
+                "Id": "4MQDL7TL",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDKywp",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "userprofileid",
+                "Id": "4MQDKddX",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "686181",
+                "Id": "4MQDKhtn",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDKZNH",
+          "isOv": true
+        }
+      ],
+      "Address": [],
+      "Specialty": [
+        {
+          "value": {
+            "SpecialtyRank": [],
+            "SystemIdentifierType": [],
+            "SystemIdentifierValue": [],
+            "BeginDate": [],
+            "Status": [],
+            "EndDate": [],
+            "SpecialtyCode": [
+              {
+                "value": "022",
+                "Id": "4MQKQKq7",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifier": [
+              {
+                "value": {
+                  "SystemIdentifierType": [
+                    {
+                      "value": "specialtycode",
+                      "Id": "4MQH8zAl",
+                      "isOv": true
+                    }
+                  ],
+                  "SystemIdentifierValue": [
+                    {
+                      "value": "022",
+                      "Id": "4MQH93R1",
+                      "isOv": true
+                    }
+                  ]
+                },
+                "Id": "4MQH8uuV",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "0297VbE",
+          "isOv": true
+        }
+      ],
+      "ImageGallery": [],
+      "Prefix": [],
+      "Name": [],
+      "FirstName": [],
+      "LastName": [],
+      "SuffixName": [],
+      "Nickname": [],
+      "Gender": [],
+      "YoB": [],
+      "BirthCity": [],
+      "BirthState": [],
+      "BirthCountry": [],
+      "YoD": [],
+      "TaxID": [],
+      "SSNLast4": [],
+      "ME": [],
+      "NPI": [],
+      "UPIN": [],
+      "KaiserProvider": [],
+      "MajorProfessionalActivity": [],
+      "PresentEmployment": [],
+      "TypeOfPractice": [],
+      "Solo": [],
+      "Group": [],
+      "Administrator": [],
+      "Research": [],
+      "ClinicalTrials": [],
+      "PrivacyPreferences": [],
+      "License": [],
+      "Sanction": [],
+      "GSASanction": [],
+      "Degrees": [],
+      "Certificates": [],
+      "Employment": [],
+      "Speaker": [],
+      "WebsiteURL": [],
+      "Status": [],
+      "ImageLinks": [],
+      "DocumentLinks": [],
+      "VideoLinks": [],
+      "Description": [],
+      "Credentials": [],
+      "FormerFirstName": [],
+      "FormerLastName": [],
+      "FormerMiddleName": [],
+      "FormerSuffixName": [],
+      "MiddleInitial": [],
+      "Title": [],
+      "DeleteEntity": [],
+      "affiliatedwith": [],
+      "PresumedDead": [],
+      "DEABusinessActivity": [],
+      "Taxonomy": [],
+      "Identifiers": [],
+      "StatusUpdateDate": [],
+      "StatusReasonCode": [],
+      "Commenters": [],
+      "Specialities": []
+    },
+    "meta_src_system_name": "RIQ Extract",
+    "meta_process_name": "BQ Batch SQL",
+    "meta_source": "RIQ",
+    "bq_load_timestamp": "2022-01-20 13:15:39.453059 UTC"
+  },
+  {
+    "softDeleted": false,
+    "hardDeleted": false,
+    "deleted": false,
+    "deletedTime": null,
+    "crosswalks": [
+      {
+        "value": "11299-754",
+        "attributes": [
+          "SystemIdentifier/4MQDGzjr",
+          "Alias/4MQDG6KV",
+          "SystemIdentifier/4MQDHCWd",
+          "Alias/4MQDGJ7H",
+          "Email/4MQDFtXj",
+          "ManagedIdentifier/4MQDFHBP",
+          "SystemIdentifier/4MQDHPJP",
+          "SystemIdentifier/4MQDHc6B",
+          "Alias/4MQDGigp",
+          "Alias/4MQDGVu3",
+          "SystemIdentifier/4MQDHosx",
+          "Email/4MQDFgkx",
+          "FamilyName/4MQDF4Od",
+          "GivenName/4MQDEvs7",
+          "Specialty/0297N4i",
+          "SystemIdentifier/4MQDGzjr/SystemIdentifierType/4MQDH407",
+          "SystemIdentifier/4MQDGzjr/SystemIdentifierValue/4MQDH8GN",
+          "Alias/4MQDG6KV/AliasNameTypeCode/4MQDGAal",
+          "Alias/4MQDG6KV/AliasFullName/4MQDGEr1",
+          "SystemIdentifier/4MQDHCWd/SystemIdentifierValue/4MQDHL39",
+          "SystemIdentifier/4MQDHCWd/SystemIdentifierType/4MQDHGmt",
+          "Alias/4MQDGJ7H/AliasFullName/4MQDGRdn",
+          "Alias/4MQDGJ7H/AliasNameTypeCode/4MQDGNNX",
+          "Email/4MQDFtXj/EmailType/4MQDFxnz",
+          "ManagedIdentifier/4MQDFHBP/IdentifierStatus/4MQDFcUh",
+          "ManagedIdentifier/4MQDFHBP/ManagedIdentifierValue/4MQDFPhv",
+          "ManagedIdentifier/4MQDFHBP/ManagedIdentifierType/4MQDFLRf",
+          "SystemIdentifier/4MQDHPJP/SystemIdentifierValue/4MQDHXpv",
+          "SystemIdentifier/4MQDHPJP/SystemIdentifierType/4MQDHTZf",
+          "SystemIdentifier/4MQDHc6B/SystemIdentifierValue/4MQDHkch",
+          "SystemIdentifier/4MQDHc6B/SystemIdentifierType/4MQDHgMR",
+          "Alias/4MQDGigp/AliasFullName/4MQDGrDL",
+          "Alias/4MQDGigp/AliasNameTypeCode/4MQDGmx5",
+          "Alias/4MQDGVu3/AliasNameTypeCode/4MQDGaAJ",
+          "Alias/4MQDGVu3/AliasFullName/4MQDGeQZ",
+          "SystemIdentifier/4MQDHosx/SystemIdentifierValue/4MQDHxPT",
+          "SystemIdentifier/4MQDHosx/SystemIdentifierType/4MQDHt9D",
+          "Email/4MQDFgkx/EmailType/4MQDFl1D"
+        ],
+        "Uri": "entities/1dFoBNX/crosswalks/4MQDI1fj",
+        "updateDate": "2021-10-27 12:23:00.945 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 12:23:00.945 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:23:00.945 UTC",
+        "refEntityOrRelationId": ""
+      },
+      {
+        "value": "022",
+        "attributes": [
+          "Specialty/0297N4i",
+          "Specialty/0297N4i/SystemIdentifier/4MQH8uuV",
+          "Specialty/0297N4i/SpecialtyCode/4MQKQKq7",
+          "Specialty/0297N4i/SystemIdentifier/4MQH8uuV/SystemIdentifierType/4MQH8zAl",
+          "Specialty/0297N4i/SystemIdentifier/4MQH8uuV/SystemIdentifierValue/4MQH93R1"
+        ],
+        "Uri": "entities/1dFoBNX/crosswalks/1dFsigZ.4MQH97hH",
+        "updateDate": "2021-10-27 12:48:12.457 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 19:32:20.385 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:48:12.457 UTC",
+        "refEntityOrRelationId": "1dFsigZ"
+      },
+      {
+        "value": "HAS_SPECIALTY_HCP11299-754_SPECIALTY022",
+        "attributes": [],
+        "Uri": "entities/1dFoBNX/crosswalks/0297N4i.rOIzI3U",
+        "updateDate": "2021-10-27 12:57:24.538 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 12:57:24.538 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:57:24.538 UTC",
+        "refEntityOrRelationId": "0297N4i"
+      },
+      {
+        "value": "11299-754",
+        "attributes": [],
+        "Uri": "entities/1dFoBNX/crosswalks/4MQDI1fj",
+        "updateDate": null,
+        "deleteDate": null,
+        "reltioLoadDate": null,
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": null,
+        "refEntityOrRelationId": "0297N4i"
+      },
+      {
+        "value": "022",
+        "attributes": [],
+        "Uri": "entities/1dFsigZ/crosswalks/4MQH97hH",
+        "updateDate": null,
+        "deleteDate": null,
+        "reltioLoadDate": null,
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": null,
+        "refEntityOrRelationId": "0297N4i"
+      }
+    ],
+    "tags": [],
+    "createdTime": "2021-10-27 12:23:00.945 UTC",
+    "updatedTime": "2021-11-09 14:01:36.548 UTC",
+    "insertedTime": "2021-11-09 14:01:36.548 UTC",
+    "startDate": null,
+    "endDate": null,
+    "Uri": "entities/1dFoBNX",
+    "updatedBy": "Re-cleansing of null in tenant aZ3nRz4xTnBl2g6 background task. (started by sanchari.saha@ascension-external.org)",
+    "Type": "HCP",
+    "createdBy": "vsheladi@ascension-external.org",
+    "eventTime": "2021-11-09 14:01:36.548 UTC",
+    "versionTime": "2000000002",
+    "Id": "1dFoBNX",
+    "analyticsAttributes": {
+      "DQ": [],
+      "IQ": [],
+      "AttributeValidations": []
+    },
+    "attributes": {
+      "NamePrefixCode": [],
+      "GivenName": [
+        {
+          "value": "GUILLERMO",
+          "Id": "4MQDEvs7",
+          "isOv": true
+        }
+      ],
+      "MiddleName": [],
+      "FamilyName": [
+        {
+          "value": "MARTINEZ-TORRES",
+          "Id": "4MQDF4Od",
+          "isOv": true
+        }
+      ],
+      "NameSuffixCode": [],
+      "Credential": [],
+      "FullName": [],
+      "PreferredName": [],
+      "MaidenName": [],
+      "DoB": [],
+      "DoD": [],
+      "DeceasedFlag": [],
+      "AdministrativeGenderCode": [],
+      "RaceCode": [],
+      "EthnicityCode": [],
+      "LanguageSpoken": [],
+      "SSN": [],
+      "DomesticPartnerName": [],
+      "MaritalStatusCode": [],
+      "FieldofLicensureCode": [],
+      "ManagedIdentifier": [
+        {
+          "value": {
+            "ManagedIdentifierType": [
+              {
+                "value": "NPI Number",
+                "Id": "4MQDFLRf",
+                "isOv": true
+              }
+            ],
+            "ManagedIdentifierValue": [
+              {
+                "value": "1982710935",
+                "Id": "4MQDFPhv",
+                "isOv": true
+              }
+            ],
+            "IssuingAuthority": [],
+            "State": [],
+            "StateProfessionTypeCode": [],
+            "InitialIssueDate": [],
+            "EffectiveDate": [],
+            "RenewalDate": [],
+            "ExpirationDate": [],
+            "IdentifierStatus": [
+              {
+                "value": "COMPLETE",
+                "Id": "4MQDFcUh",
+                "isOv": true
+              }
+            ],
+            "CredentialInUseFlag": []
+          },
+          "Id": "4MQDFHBP",
+          "isOv": true
+        }
+      ],
+      "BoardCertification": [],
+      "Education": [],
+      "Email": [
+        {
+          "value": {
+            "EmailType": [
+              {
+                "value": "directaddress",
+                "Id": "4MQDFxnz",
+                "isOv": true
+              }
+            ],
+            "Email": [],
+            "Rank": [],
+            "Active": [],
+            "Domain": [],
+            "DomainType": [],
+            "Username": [],
+            "ValidationStatus": [],
+            "SourceCD": [],
+            "Type": []
+          },
+          "Id": "4MQDFtXj",
+          "isOv": true
+        },
+        {
+          "value": {
+            "EmailType": [
+              {
+                "value": "email",
+                "Id": "4MQDFl1D",
+                "isOv": true
+              }
+            ],
+            "Email": [],
+            "Rank": [],
+            "Active": [],
+            "Domain": [],
+            "DomainType": [],
+            "Username": [],
+            "ValidationStatus": [],
+            "SourceCD": [],
+            "Type": []
+          },
+          "Id": "4MQDFgkx",
+          "isOv": true
+        }
+      ],
+      "Phone": [],
+      "Alias": [
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "providerusername",
+                "Id": "4MQDGAal",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "gmartineztorres2",
+                "Id": "4MQDGEr1",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDG6KV",
+          "isOv": true
+        },
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "schedulingname",
+                "Id": "4MQDGNNX",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "MMA_MARTINEZTORRE_G",
+                "Id": "4MQDGRdn",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDGJ7H",
+          "isOv": false
+        },
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "billedname",
+                "Id": "4MQDGmx5",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "GUILLERMO MARTINEZ-TORRES, MD",
+                "Id": "4MQDGrDL",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDGigp",
+          "isOv": false
+        },
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "patientfacingname",
+                "Id": "4MQDGaAJ",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "GUILLERMO MARTINEZ-TORRES, MD",
+                "Id": "4MQDGeQZ",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDGVu3",
+          "isOv": false
+        }
+      ],
+      "AMGMarketableFlag": [],
+      "TestRecordFlag": [],
+      "StatusCode": [],
+      "SystemIdentifier": [
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "contextid",
+                "Id": "4MQDH407",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "11299",
+                "Id": "4MQDH8GN",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDGzjr",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providergroupid",
+                "Id": "4MQDHgMR",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "1",
+                "Id": "4MQDHkch",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDHc6B",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providerid",
+                "Id": "4MQDHGmt",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "754",
+                "Id": "4MQDHL39",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDHCWd",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providermedicalgroupid",
+                "Id": "4MQDHt9D",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "1",
+                "Id": "4MQDHxPT",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDHosx",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "userprofileid",
+                "Id": "4MQDHTZf",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "686625",
+                "Id": "4MQDHXpv",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDHPJP",
+          "isOv": true
+        }
+      ],
+      "Address": [],
+      "Specialty": [
+        {
+          "value": {
+            "SpecialtyRank": [],
+            "SystemIdentifierType": [],
+            "SystemIdentifierValue": [],
+            "BeginDate": [],
+            "Status": [],
+            "EndDate": [],
+            "SpecialtyCode": [
+              {
+                "value": "022",
+                "Id": "4MQKQKq7",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifier": [
+              {
+                "value": {
+                  "SystemIdentifierType": [
+                    {
+                      "value": "specialtycode",
+                      "Id": "4MQH8zAl",
+                      "isOv": true
+                    }
+                  ],
+                  "SystemIdentifierValue": [
+                    {
+                      "value": "022",
+                      "Id": "4MQH93R1",
+                      "isOv": true
+                    }
+                  ]
+                },
+                "Id": "4MQH8uuV",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "0297N4i",
+          "isOv": true
+        }
+      ],
+      "ImageGallery": [],
+      "Prefix": [],
+      "Name": [],
+      "FirstName": [],
+      "LastName": [],
+      "SuffixName": [],
+      "Nickname": [],
+      "Gender": [],
+      "YoB": [],
+      "BirthCity": [],
+      "BirthState": [],
+      "BirthCountry": [],
+      "YoD": [],
+      "TaxID": [],
+      "SSNLast4": [],
+      "ME": [],
+      "NPI": [],
+      "UPIN": [],
+      "KaiserProvider": [],
+      "MajorProfessionalActivity": [],
+      "PresentEmployment": [],
+      "TypeOfPractice": [],
+      "Solo": [],
+      "Group": [],
+      "Administrator": [],
+      "Research": [],
+      "ClinicalTrials": [],
+      "PrivacyPreferences": [],
+      "License": [],
+      "Sanction": [],
+      "GSASanction": [],
+      "Degrees": [],
+      "Certificates": [],
+      "Employment": [],
+      "Speaker": [],
+      "WebsiteURL": [],
+      "Status": [],
+      "ImageLinks": [],
+      "DocumentLinks": [],
+      "VideoLinks": [],
+      "Description": [],
+      "Credentials": [],
+      "FormerFirstName": [],
+      "FormerLastName": [],
+      "FormerMiddleName": [],
+      "FormerSuffixName": [],
+      "MiddleInitial": [],
+      "Title": [],
+      "DeleteEntity": [],
+      "affiliatedwith": [],
+      "PresumedDead": [],
+      "DEABusinessActivity": [],
+      "Taxonomy": [],
+      "Identifiers": [],
+      "StatusUpdateDate": [],
+      "StatusReasonCode": [],
+      "Commenters": [],
+      "Specialities": []
+    },
+    "meta_src_system_name": "RIQ Extract",
+    "meta_process_name": "BQ Batch SQL",
+    "meta_source": "RIQ",
+    "bq_load_timestamp": "2022-01-20 13:15:39.453059 UTC"
+  },
+  {
+    "softDeleted": false,
+    "hardDeleted": false,
+    "deleted": false,
+    "deletedTime": null,
+    "crosswalks": [
+      {
+        "value": "10634-2333",
+        "attributes": [
+          "SystemIdentifier/4MQECfkN",
+          "ManagedIdentifier/4MQEAkP9",
+          "Email/4MQEB9yh",
+          "Alias/4MQEBZYF",
+          "Alias/4MQEBmL1",
+          "SystemIdentifier/4MQECSxb",
+          "SystemIdentifier/4MQECGAp",
+          "Alias/4MQEBMlT",
+          "SystemIdentifier/4MQEC3O3",
+          "GivenName/4MQEAP5r",
+          "Status/4MQEBz7n",
+          "FamilyName/4MQEAXcN",
+          "Specialty/0295Vzk",
+          "SystemIdentifier/4MQECfkN/SystemIdentifierType/4MQECk0d",
+          "SystemIdentifier/4MQECfkN/SystemIdentifierValue/4MQECoGt",
+          "ManagedIdentifier/4MQEAkP9/ManagedIdentifierType/4MQEAofP",
+          "ManagedIdentifier/4MQEAkP9/IdentifierStatus/4MQEB5iR",
+          "ManagedIdentifier/4MQEAkP9/ManagedIdentifierValue/4MQEAsvf",
+          "Email/4MQEB9yh/EmailType/4MQEBEEx",
+          "Alias/4MQEBZYF/AliasNameTypeCode/4MQEBdoV",
+          "Alias/4MQEBZYF/AliasFullName/4MQEBi4l",
+          "Alias/4MQEBmL1/AliasNameTypeCode/4MQEBqbH",
+          "Alias/4MQEBmL1/AliasFullName/4MQEBurX",
+          "SystemIdentifier/4MQECSxb/SystemIdentifierType/4MQECXDr",
+          "SystemIdentifier/4MQECSxb/SystemIdentifierValue/4MQECbU7",
+          "SystemIdentifier/4MQECGAp/SystemIdentifierValue/4MQECOhL",
+          "SystemIdentifier/4MQECGAp/SystemIdentifierType/4MQECKR5",
+          "Alias/4MQEBMlT/AliasNameTypeCode/4MQEBR1j",
+          "Alias/4MQEBMlT/AliasFullName/4MQEBVHz",
+          "SystemIdentifier/4MQEC3O3/SystemIdentifierValue/4MQECBuZ",
+          "SystemIdentifier/4MQEC3O3/SystemIdentifierType/4MQEC7eJ"
+        ],
+        "Uri": "entities/1dFpLpv/crosswalks/4MQECsX9",
+        "updateDate": "2021-10-27 12:23:00.945 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 12:23:00.945 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:23:00.945 UTC",
+        "refEntityOrRelationId": ""
+      },
+      {
+        "value": "011",
+        "attributes": [
+          "Specialty/0295Vzk",
+          "Specialty/0295Vzk/SystemIdentifier/4MQH6AQB",
+          "Specialty/0295Vzk/SpecialtyCode/4MQKPIuF",
+          "Specialty/0295Vzk/SystemIdentifier/4MQH6AQB/SystemIdentifierValue/4MQH6Iwh",
+          "Specialty/0295Vzk/SystemIdentifier/4MQH6AQB/SystemIdentifierType/4MQH6EgR"
+        ],
+        "Uri": "entities/1dFpLpv/crosswalks/1dFs23z.4MQH6NCx",
+        "updateDate": "2021-10-27 12:48:12.457 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 19:32:20.385 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:48:12.457 UTC",
+        "refEntityOrRelationId": "1dFs23z"
+      },
+      {
+        "value": "HAS_SPECIALTY_HCP10634-2333_SPECIALTY011",
+        "attributes": [],
+        "Uri": "entities/1dFpLpv/crosswalks/0295Vzk.rOIxQyW",
+        "updateDate": "2021-10-27 12:57:24.538 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 12:57:24.538 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:57:24.538 UTC",
+        "refEntityOrRelationId": "0295Vzk"
+      },
+      {
+        "value": "10634-2333",
+        "attributes": [],
+        "Uri": "entities/1dFpLpv/crosswalks/4MQECsX9",
+        "updateDate": null,
+        "deleteDate": null,
+        "reltioLoadDate": null,
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": null,
+        "refEntityOrRelationId": "0295Vzk"
+      },
+      {
+        "value": "011",
+        "attributes": [],
+        "Uri": "entities/1dFs23z/crosswalks/4MQH6NCx",
+        "updateDate": null,
+        "deleteDate": null,
+        "reltioLoadDate": null,
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": null,
+        "refEntityOrRelationId": "0295Vzk"
+      }
+    ],
+    "tags": [],
+    "createdTime": "2021-10-27 12:23:00.945 UTC",
+    "updatedTime": "2021-11-09 14:01:36.548 UTC",
+    "insertedTime": "2021-11-09 14:01:36.548 UTC",
+    "startDate": null,
+    "endDate": null,
+    "Uri": "entities/1dFpLpv",
+    "updatedBy": "Re-cleansing of null in tenant aZ3nRz4xTnBl2g6 background task. (started by sanchari.saha@ascension-external.org)",
+    "Type": "HCP",
+    "createdBy": "vsheladi@ascension-external.org",
+    "eventTime": "2021-11-09 14:01:36.548 UTC",
+    "versionTime": "2000000002",
+    "Id": "1dFpLpv",
+    "analyticsAttributes": {
+      "DQ": [],
+      "IQ": [],
+      "AttributeValidations": []
+    },
+    "attributes": {
+      "NamePrefixCode": [],
+      "GivenName": [
+        {
+          "value": "ANDREW",
+          "Id": "4MQEAP5r",
+          "isOv": true
+        }
+      ],
+      "MiddleName": [],
+      "FamilyName": [
+        {
+          "value": "VOSBURGH",
+          "Id": "4MQEAXcN",
+          "isOv": true
+        }
+      ],
+      "NameSuffixCode": [],
+      "Credential": [],
+      "FullName": [],
+      "PreferredName": [],
+      "MaidenName": [],
+      "DoB": [],
+      "DoD": [],
+      "DeceasedFlag": [],
+      "AdministrativeGenderCode": [],
+      "RaceCode": [],
+      "EthnicityCode": [],
+      "LanguageSpoken": [],
+      "SSN": [],
+      "DomesticPartnerName": [],
+      "MaritalStatusCode": [],
+      "FieldofLicensureCode": [],
+      "ManagedIdentifier": [
+        {
+          "value": {
+            "ManagedIdentifierType": [
+              {
+                "value": "NPI Number",
+                "Id": "4MQEAofP",
+                "isOv": true
+              }
+            ],
+            "ManagedIdentifierValue": [
+              {
+                "value": "1891774972",
+                "Id": "4MQEAsvf",
+                "isOv": true
+              }
+            ],
+            "IssuingAuthority": [],
+            "State": [],
+            "StateProfessionTypeCode": [],
+            "InitialIssueDate": [],
+            "EffectiveDate": [],
+            "RenewalDate": [],
+            "ExpirationDate": [],
+            "IdentifierStatus": [
+              {
+                "value": "COMPLETE",
+                "Id": "4MQEB5iR",
+                "isOv": true
+              }
+            ],
+            "CredentialInUseFlag": []
+          },
+          "Id": "4MQEAkP9",
+          "isOv": true
+        }
+      ],
+      "BoardCertification": [],
+      "Education": [],
+      "Email": [
+        {
+          "value": {
+            "EmailType": [
+              {
+                "value": "directaddress",
+                "Id": "4MQEBEEx",
+                "isOv": true
+              }
+            ],
+            "Email": [],
+            "Rank": [],
+            "Active": [],
+            "Domain": [],
+            "DomainType": [],
+            "Username": [],
+            "ValidationStatus": [],
+            "SourceCD": [],
+            "Type": []
+          },
+          "Id": "4MQEB9yh",
+          "isOv": true
+        }
+      ],
+      "Phone": [],
+      "Alias": [
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "patientfacingname",
+                "Id": "4MQEBdoV",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "Andrew Vosburgh MD",
+                "Id": "4MQEBi4l",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQEBZYF",
+          "isOv": true
+        },
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "billedname",
+                "Id": "4MQEBqbH",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "ANDREW JAMES VOSBURGH MD",
+                "Id": "4MQEBurX",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQEBmL1",
+          "isOv": false
+        },
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "schedulingname",
+                "Id": "4MQEBR1j",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "BMC_VOSBURGH_AN_MD",
+                "Id": "4MQEBVHz",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQEBMlT",
+          "isOv": false
+        }
+      ],
+      "AMGMarketableFlag": [],
+      "TestRecordFlag": [],
+      "StatusCode": [],
+      "SystemIdentifier": [
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "contextid",
+                "Id": "4MQEC7eJ",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "10634",
+                "Id": "4MQECBuZ",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQEC3O3",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providergroupid",
+                "Id": "4MQECXDr",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "1",
+                "Id": "4MQECbU7",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQECSxb",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providerid",
+                "Id": "4MQECKR5",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "2333",
+                "Id": "4MQECOhL",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQECGAp",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providermedicalgroupid",
+                "Id": "4MQECk0d",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "21",
+                "Id": "4MQECoGt",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQECfkN",
+          "isOv": true
+        }
+      ],
+      "Address": [],
+      "Specialty": [
+        {
+          "value": {
+            "SpecialtyRank": [],
+            "SystemIdentifierType": [],
+            "SystemIdentifierValue": [],
+            "BeginDate": [],
+            "Status": [],
+            "EndDate": [],
+            "SpecialtyCode": [
+              {
+                "value": "011",
+                "Id": "4MQKPIuF",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifier": [
+              {
+                "value": {
+                  "SystemIdentifierType": [
+                    {
+                      "value": "specialtycode",
+                      "Id": "4MQH6EgR",
+                      "isOv": true
+                    }
+                  ],
+                  "SystemIdentifierValue": [
+                    {
+                      "value": "011",
+                      "Id": "4MQH6Iwh",
+                      "isOv": true
+                    }
+                  ]
+                },
+                "Id": "4MQH6AQB",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "0295Vzk",
+          "isOv": true
+        }
+      ],
+      "ImageGallery": [],
+      "Prefix": [],
+      "Name": [],
+      "FirstName": [],
+      "LastName": [],
+      "SuffixName": [],
+      "Nickname": [],
+      "Gender": [],
+      "YoB": [],
+      "BirthCity": [],
+      "BirthState": [],
+      "BirthCountry": [],
+      "YoD": [],
+      "TaxID": [],
+      "SSNLast4": [],
+      "ME": [],
+      "NPI": [],
+      "UPIN": [],
+      "KaiserProvider": [],
+      "MajorProfessionalActivity": [],
+      "PresentEmployment": [],
+      "TypeOfPractice": [],
+      "Solo": [],
+      "Group": [],
+      "Administrator": [],
+      "Research": [],
+      "ClinicalTrials": [],
+      "PrivacyPreferences": [],
+      "License": [],
+      "Sanction": [],
+      "GSASanction": [],
+      "Degrees": [],
+      "Certificates": [],
+      "Employment": [],
+      "Speaker": [],
+      "WebsiteURL": [],
+      "Status": [
+        {
+          "value": "Employed",
+          "Id": "4MQEBz7n",
+          "isOv": true
+        }
+      ],
+      "ImageLinks": [],
+      "DocumentLinks": [],
+      "VideoLinks": [],
+      "Description": [],
+      "Credentials": [],
+      "FormerFirstName": [],
+      "FormerLastName": [],
+      "FormerMiddleName": [],
+      "FormerSuffixName": [],
+      "MiddleInitial": [],
+      "Title": [],
+      "DeleteEntity": [],
+      "affiliatedwith": [],
+      "PresumedDead": [],
+      "DEABusinessActivity": [],
+      "Taxonomy": [],
+      "Identifiers": [],
+      "StatusUpdateDate": [],
+      "StatusReasonCode": [],
+      "Commenters": [],
+      "Specialities": []
+    },
+    "meta_src_system_name": "RIQ Extract",
+    "meta_process_name": "BQ Batch SQL",
+    "meta_source": "RIQ",
+    "bq_load_timestamp": "2022-01-20 13:15:39.453059 UTC"
+  },
+  {
+    "softDeleted": false,
+    "hardDeleted": false,
+    "deleted": false,
+    "deletedTime": null,
+    "crosswalks": [
+      {
+        "value": "20807-754",
+        "attributes": [
+          "Alias/4MQDrZF9",
+          "Email/4MQDqwsp",
+          "Alias/4MQDrMSN",
+          "SystemIdentifier/4MQDrqIB",
+          "SystemIdentifier/4MQDs34x",
+          "SystemIdentifier/4MQDsSeV",
+          "Alias/4MQDr9fb",
+          "ManagedIdentifier/4MQDqXJH",
+          "ManagedIdentifier/4MQDq7jj",
+          "SystemIdentifier/4MQDsFrj",
+          "GivenName/4MQDpmQR",
+          "FamilyName/4MQDpuwx",
+          "MiddleName/4MQDpqgh",
+          "Specialty/0296cBs",
+          "Alias/4MQDrZF9/AliasNameTypeCode/4MQDrdVP",
+          "Alias/4MQDrZF9/AliasFullName/4MQDrhlf",
+          "Email/4MQDqwsp/EmailType/4MQDr195",
+          "Alias/4MQDrMSN/AliasFullName/4MQDrUyt",
+          "Alias/4MQDrMSN/AliasNameTypeCode/4MQDrQid",
+          "SystemIdentifier/4MQDrqIB/SystemIdentifierType/4MQDruYR",
+          "SystemIdentifier/4MQDrqIB/SystemIdentifierValue/4MQDryoh",
+          "SystemIdentifier/4MQDs34x/SystemIdentifierType/4MQDs7LD",
+          "SystemIdentifier/4MQDs34x/SystemIdentifierValue/4MQDsBbT",
+          "SystemIdentifier/4MQDsSeV/SystemIdentifierValue/4MQDsbB1",
+          "SystemIdentifier/4MQDsSeV/SystemIdentifierType/4MQDsWul",
+          "Alias/4MQDr9fb/AliasFullName/4MQDrIC7",
+          "Alias/4MQDr9fb/AliasNameTypeCode/4MQDrDvr",
+          "ManagedIdentifier/4MQDqXJH/ManagedIdentifierType/4MQDqbZX",
+          "ManagedIdentifier/4MQDqXJH/ManagedIdentifierValue/4MQDqfpn",
+          "ManagedIdentifier/4MQDqXJH/IdentifierStatus/4MQDqscZ",
+          "ManagedIdentifier/4MQDq7jj/ManagedIdentifierValue/4MQDqGGF",
+          "ManagedIdentifier/4MQDq7jj/IdentifierStatus/4MQDqT31",
+          "ManagedIdentifier/4MQDq7jj/ManagedIdentifierType/4MQDqBzz",
+          "SystemIdentifier/4MQDsFrj/SystemIdentifierType/4MQDsK7z",
+          "SystemIdentifier/4MQDsFrj/SystemIdentifierValue/4MQDsOOF"
+        ],
+        "Uri": "entities/1dFowGN/crosswalks/4MQDsfRH",
+        "updateDate": "2021-10-27 12:23:00.945 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 12:23:00.945 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:23:00.945 UTC",
+        "refEntityOrRelationId": ""
+      },
+      {
+        "value": "011",
+        "attributes": [
+          "Specialty/0296cBs",
+          "Specialty/0296cBs/SystemIdentifier/4MQH6AQB",
+          "Specialty/0296cBs/SpecialtyCode/4MQKPIuF",
+          "Specialty/0296cBs/SystemIdentifier/4MQH6AQB/SystemIdentifierValue/4MQH6Iwh",
+          "Specialty/0296cBs/SystemIdentifier/4MQH6AQB/SystemIdentifierType/4MQH6EgR"
+        ],
+        "Uri": "entities/1dFowGN/crosswalks/1dFs23z.4MQH6NCx",
+        "updateDate": "2021-10-27 12:48:12.457 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 19:32:20.385 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:48:12.457 UTC",
+        "refEntityOrRelationId": "1dFs23z"
+      },
+      {
+        "value": "HAS_SPECIALTY_HCP20807-754_SPECIALTY011",
+        "attributes": [],
+        "Uri": "entities/1dFowGN/crosswalks/0296cBs.rOIyXAe",
+        "updateDate": "2021-10-27 12:57:24.538 UTC",
+        "deleteDate": null,
+        "reltioLoadDate": "2021-10-27 12:57:24.538 UTC",
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": "2021-10-27 12:57:24.538 UTC",
+        "refEntityOrRelationId": "0296cBs"
+      },
+      {
+        "value": "20807-754",
+        "attributes": [],
+        "Uri": "entities/1dFowGN/crosswalks/4MQDsfRH",
+        "updateDate": null,
+        "deleteDate": null,
+        "reltioLoadDate": null,
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": null,
+        "refEntityOrRelationId": "0296cBs"
+      },
+      {
+        "value": "011",
+        "attributes": [],
+        "Uri": "entities/1dFs23z/crosswalks/4MQH6NCx",
+        "updateDate": null,
+        "deleteDate": null,
+        "reltioLoadDate": null,
+        "source": "configuration/sources/Athena",
+        "sourceTable": null,
+        "createDate": null,
+        "refEntityOrRelationId": "0296cBs"
+      }
+    ],
+    "tags": [],
+    "createdTime": "2021-10-27 12:23:00.945 UTC",
+    "updatedTime": "2021-11-09 14:01:36.548 UTC",
+    "insertedTime": "2021-11-09 14:01:36.548 UTC",
+    "startDate": null,
+    "endDate": null,
+    "Uri": "entities/1dFowGN",
+    "updatedBy": "Re-cleansing of null in tenant aZ3nRz4xTnBl2g6 background task. (started by sanchari.saha@ascension-external.org)",
+    "Type": "HCP",
+    "createdBy": "vsheladi@ascension-external.org",
+    "eventTime": "2021-11-09 14:01:36.548 UTC",
+    "versionTime": "2000000002",
+    "Id": "1dFowGN",
+    "analyticsAttributes": {
+      "DQ": [],
+      "IQ": [],
+      "AttributeValidations": []
+    },
+    "attributes": {
+      "NamePrefixCode": [],
+      "GivenName": [
+        {
+          "value": "JOHN",
+          "Id": "4MQDpmQR",
+          "isOv": true
+        }
+      ],
+      "MiddleName": [
+        {
+          "value": "D",
+          "Id": "4MQDpqgh",
+          "isOv": true
+        }
+      ],
+      "FamilyName": [
+        {
+          "value": "TAYLOR",
+          "Id": "4MQDpuwx",
+          "isOv": true
+        }
+      ],
+      "NameSuffixCode": [],
+      "Credential": [],
+      "FullName": [],
+      "PreferredName": [],
+      "MaidenName": [],
+      "DoB": [],
+      "DoD": [],
+      "DeceasedFlag": [],
+      "AdministrativeGenderCode": [],
+      "RaceCode": [],
+      "EthnicityCode": [],
+      "LanguageSpoken": [],
+      "SSN": [],
+      "DomesticPartnerName": [],
+      "MaritalStatusCode": [],
+      "FieldofLicensureCode": [],
+      "ManagedIdentifier": [
+        {
+          "value": {
+            "ManagedIdentifierType": [
+              {
+                "value": "DEA Number",
+                "Id": "4MQDqbZX",
+                "isOv": true
+              }
+            ],
+            "ManagedIdentifierValue": [
+              {
+                "value": "BT7309051",
+                "Id": "4MQDqfpn",
+                "isOv": true
+              }
+            ],
+            "IssuingAuthority": [],
+            "State": [],
+            "StateProfessionTypeCode": [],
+            "InitialIssueDate": [],
+            "EffectiveDate": [],
+            "RenewalDate": [],
+            "ExpirationDate": [],
+            "IdentifierStatus": [
+              {
+                "value": "COMPLETE",
+                "Id": "4MQDqscZ",
+                "isOv": true
+              }
+            ],
+            "CredentialInUseFlag": []
+          },
+          "Id": "4MQDqXJH",
+          "isOv": true
+        },
+        {
+          "value": {
+            "ManagedIdentifierType": [
+              {
+                "value": "NPI Number",
+                "Id": "4MQDqBzz",
+                "isOv": true
+              }
+            ],
+            "ManagedIdentifierValue": [
+              {
+                "value": "1457446791",
+                "Id": "4MQDqGGF",
+                "isOv": true
+              }
+            ],
+            "IssuingAuthority": [],
+            "State": [],
+            "StateProfessionTypeCode": [],
+            "InitialIssueDate": [],
+            "EffectiveDate": [],
+            "RenewalDate": [],
+            "ExpirationDate": [],
+            "IdentifierStatus": [
+              {
+                "value": "COMPLETE",
+                "Id": "4MQDqT31",
+                "isOv": true
+              }
+            ],
+            "CredentialInUseFlag": []
+          },
+          "Id": "4MQDq7jj",
+          "isOv": true
+        }
+      ],
+      "BoardCertification": [],
+      "Education": [],
+      "Email": [
+        {
+          "value": {
+            "EmailType": [
+              {
+                "value": "directaddress",
+                "Id": "4MQDr195",
+                "isOv": true
+              }
+            ],
+            "Email": [],
+            "Rank": [],
+            "Active": [],
+            "Domain": [],
+            "DomainType": [],
+            "Username": [],
+            "ValidationStatus": [],
+            "SourceCD": [],
+            "Type": []
+          },
+          "Id": "4MQDqwsp",
+          "isOv": true
+        }
+      ],
+      "Phone": [],
+      "Alias": [
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "billedname",
+                "Id": "4MQDrdVP",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "JOHN D TAYLOR, MD",
+                "Id": "4MQDrhlf",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDrZF9",
+          "isOv": true
+        },
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "patientfacingname",
+                "Id": "4MQDrQid",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "John D Taylor, MD",
+                "Id": "4MQDrUyt",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDrMSN",
+          "isOv": false
+        },
+        {
+          "value": {
+            "AliasNameTypeCode": [
+              {
+                "value": "schedulingname",
+                "Id": "4MQDrDvr",
+                "isOv": true
+              }
+            ],
+            "AliasFullName": [
+              {
+                "value": "AVCP_Taylor_JD",
+                "Id": "4MQDrIC7",
+                "isOv": true
+              }
+            ],
+            "AliasGivenName": [],
+            "AliasFamilyName": [],
+            "AliasMiddleName": []
+          },
+          "Id": "4MQDr9fb",
+          "isOv": false
+        }
+      ],
+      "AMGMarketableFlag": [],
+      "TestRecordFlag": [],
+      "StatusCode": [],
+      "SystemIdentifier": [
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "contextid",
+                "Id": "4MQDruYR",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "20807",
+                "Id": "4MQDryoh",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDrqIB",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providergroupid",
+                "Id": "4MQDsK7z",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "6",
+                "Id": "4MQDsOOF",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDsFrj",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providerid",
+                "Id": "4MQDs7LD",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "754",
+                "Id": "4MQDsBbT",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDs34x",
+          "isOv": true
+        },
+        {
+          "value": {
+            "SystemIdentifierType": [
+              {
+                "value": "providermedicalgroupid",
+                "Id": "4MQDsWul",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifierValue": [
+              {
+                "value": "6",
+                "Id": "4MQDsbB1",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "4MQDsSeV",
+          "isOv": true
+        }
+      ],
+      "Address": [],
+      "Specialty": [
+        {
+          "value": {
+            "SpecialtyRank": [],
+            "SystemIdentifierType": [],
+            "SystemIdentifierValue": [],
+            "BeginDate": [],
+            "Status": [],
+            "EndDate": [],
+            "SpecialtyCode": [
+              {
+                "value": "011",
+                "Id": "4MQKPIuF",
+                "isOv": true
+              }
+            ],
+            "SystemIdentifier": [
+              {
+                "value": {
+                  "SystemIdentifierType": [
+                    {
+                      "value": "specialtycode",
+                      "Id": "4MQH6EgR",
+                      "isOv": true
+                    }
+                  ],
+                  "SystemIdentifierValue": [
+                    {
+                      "value": "011",
+                      "Id": "4MQH6Iwh",
+                      "isOv": true
+                    }
+                  ]
+                },
+                "Id": "4MQH6AQB",
+                "isOv": true
+              }
+            ]
+          },
+          "Id": "0296cBs",
+          "isOv": true
+        }
+      ],
+      "ImageGallery": [],
+      "Prefix": [],
+      "Name": [],
+      "FirstName": [],
+      "LastName": [],
+      "SuffixName": [],
+      "Nickname": [],
+      "Gender": [],
+      "YoB": [],
+      "BirthCity": [],
+      "BirthState": [],
+      "BirthCountry": [],
+      "YoD": [],
+      "TaxID": [],
+      "SSNLast4": [],
+      "ME": [],
+      "NPI": [],
+      "UPIN": [],
+      "KaiserProvider": [],
+      "MajorProfessionalActivity": [],
+      "PresentEmployment": [],
+      "TypeOfPractice": [],
+      "Solo": [],
+      "Group": [],
+      "Administrator": [],
+      "Research": [],
+      "ClinicalTrials": [],
+      "PrivacyPreferences": [],
+      "License": [],
+      "Sanction": [],
+      "GSASanction": [],
+      "Degrees": [],
+      "Certificates": [],
+      "Employment": [],
+      "Speaker": [],
+      "WebsiteURL": [],
+      "Status": [],
+      "ImageLinks": [],
+      "DocumentLinks": [],
+      "VideoLinks": [],
+      "Description": [],
+      "Credentials": [],
+      "FormerFirstName": [],
+      "FormerLastName": [],
+      "FormerMiddleName": [],
+      "FormerSuffixName": [],
+      "MiddleInitial": [],
+      "Title": [],
+      "DeleteEntity": [],
+      "affiliatedwith": [],
+      "PresumedDead": [],
+      "DEABusinessActivity": [],
+      "Taxonomy": [],
+      "Identifiers": [],
+      "StatusUpdateDate": [],
+      "StatusReasonCode": [],
+      "Commenters": [],
+      "Specialities": []
+    },
+    "meta_src_system_name": "RIQ Extract",
+    "meta_process_name": "BQ Batch SQL",
+    "meta_source": "RIQ",
+    "bq_load_timestamp": "2022-01-20 13:15:39.453059 UTC"
+  }
+]
+}
